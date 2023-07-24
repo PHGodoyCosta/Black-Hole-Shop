@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.header_option {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.header_option:hover {
+    font-size: 1.1em;
+}
