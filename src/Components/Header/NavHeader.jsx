@@ -1,13 +1,14 @@
 import styles from './NavHeader.module.css'
+import { Link } from 'react-router-dom'
 
 
 function NavHeader() {
     return (
         <nav className={styles.nav}>
-            <a href="#" className={styles.header_option}>Home</a>
-            <a href="#" className={styles.header_option}>Modelos</a>
-            <a href="#" className={styles.header_option}>Lojas</a>
-            <a href="#" className={styles.header_option}>Contato</a>
+            <Link to="/" className={styles.header_option}>Home</Link>
+            <Link to="#" className={styles.header_option}>Modelos</Link>
+            <Link to="#" className={styles.header_option}>Lojas</Link>
+            <Link to="#" className={styles.header_option}>Contato</Link>
         </nav>
     )
 }

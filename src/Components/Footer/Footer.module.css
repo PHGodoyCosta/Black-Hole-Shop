@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 200px;
+
+}
+
+.logo {
+    width: 300px;
+}

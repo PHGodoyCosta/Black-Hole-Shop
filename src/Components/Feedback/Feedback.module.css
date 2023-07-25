@@ -1,0 +1,32 @@
+.input {
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.feedback {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.feedback_central {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 30%;
+}

@@ -1,0 +1,18 @@
+.enviar {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputEnviar {
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
